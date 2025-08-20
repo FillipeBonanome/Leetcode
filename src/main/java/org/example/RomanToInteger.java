@@ -27,7 +27,7 @@ import java.util.Map;
 public class RomanToInteger {
 
     //6ms 20.93%
-    public int solution(String s) {
+    public static int solution(String s) {
         Map<Character, Integer> romanMap = Map.of(
                 'I', 1,
                 'V', 5,

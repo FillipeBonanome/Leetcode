@@ -12,7 +12,7 @@ package org.example;
 public class RemoveDuplicatesFromSortedArray {
 
     //1ms 59.53%
-    public int Solution(int[] nums) {
+    public static int Solution(int[] nums) {
         int answer = 0;
 
         for(int i = 0; i < nums.length; i++) {

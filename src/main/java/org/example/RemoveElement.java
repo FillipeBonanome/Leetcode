@@ -13,7 +13,7 @@ package org.example;
  */
 public class RemoveElement {
 
-    public int Solution(int[] nums, int val) {
+    public static int Solution(int[] nums, int val) {
         int answer = 0;
 
         for(int i = 0; i < nums.length; i++) {

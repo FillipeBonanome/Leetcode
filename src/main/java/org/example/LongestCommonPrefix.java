@@ -11,7 +11,7 @@ import java.util.Arrays;
 public class LongestCommonPrefix {
 
     //1ms 62.17%
-    public String solution(String[] strs) {
+    public static String solution(String[] strs) {
         Arrays.sort(strs);
         StringBuilder result = new StringBuilder();
         for(int i = 0; i < strs[0].length(); i++) {

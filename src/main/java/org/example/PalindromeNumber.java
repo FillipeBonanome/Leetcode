@@ -10,7 +10,7 @@ package org.example;
 public class PalindromeNumber {
 
     //Runtime: 7ms 13.73%
-    public boolean SolutionUsingStrings(int x) {
+    public static boolean SolutionUsingStrings(int x) {
         if (x < 0) { return false; }
         String xString = String.valueOf(x);
         for(int i = 0; i < Math.floor((double) xString.length() / 2); i++) {
@@ -22,7 +22,7 @@ public class PalindromeNumber {
     }
 
     //Runtime 4ms 100%
-    public boolean SolutionWithRemainder(int x) {
+    public static boolean SolutionWithRemainder(int x) {
         if (x < 0) { return false; }
 
         int reverse = 0;
